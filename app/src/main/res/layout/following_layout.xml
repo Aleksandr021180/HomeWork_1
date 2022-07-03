@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/first_digit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="Hello!" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Aleksandr" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:text="+79222553047" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:text="***************"
+        android:textSize="22dp"
+        android:layout_marginTop="22dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:text="79222553047@yandex.ru"
+        android:textSize="22dp"
+        android:layout_marginTop="22dp"/>
+
+<CalendarView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+    android:layout_marginTop="22dp"/>
+
+</LinearLayout>
